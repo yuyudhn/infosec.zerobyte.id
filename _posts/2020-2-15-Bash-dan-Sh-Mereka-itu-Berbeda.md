@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Bash != Sh (Mereka itu berbeda)
-categories: [Scripting Bash]
+categories: [Shell Script]
 author: Edo Maland
 ---
 
