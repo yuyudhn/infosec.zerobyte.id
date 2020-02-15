@@ -71,7 +71,7 @@ Kode diatas tidak akan berjalan dengan baik di shell dengan jenis dash, sedangka
 Kalau masih penasaran tentang **Bashism** ini bisa mengunjunginya [disini](https://mywiki.wooledge.org/Bashism)
 
 ### 2. Shebang ( Sharp & Bang )
-![enter image description here](https://linuxize.com/post/bash-shebang/featured.jpg)
+![enter image description here](https://camo.githubusercontent.com/b0e90d35de707fc60cf4b18e856628bfcd037c42/68747470733a2f2f6c696e7578697a652e636f6d2f706f73742f626173682d73686562616e672f66656174757265642e6a7067)
 
 Sebuah line yang diawali dengan prefix #! yang menuju ke path interpreter yang akan digunakan, dimana program itu akan di eksekusi melalui GNU/Linux.
 
