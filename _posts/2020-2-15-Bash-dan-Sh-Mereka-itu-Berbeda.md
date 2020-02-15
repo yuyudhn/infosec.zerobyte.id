@@ -5,9 +5,7 @@ categories: [Scripting Bash]
 author: Edo Maland
 ---
 
-# BASH != SH
-
-## Something Different
+# Something Different
 
 ![enter image description here](https://images5.alphacoders.com/520/thumb-1920-520207.jpg)
 
