@@ -27,10 +27,10 @@ Ada hewan reptil yang ber **Ordo Crocodilia** yang dimana memiliki **standarisas
 - Mata kecil terletak dibagian kepala yang menonjol di dorsal-latera.
 
 Oke, kalau sudah cukup paham coba lihat dan perhatikan seksama gambar dibawah ini :
-Menurut teman teman, gambar diatas adalah hewan apa ? 
 
 ![enter image description here](https://miro.medium.com/max/1415/1*W3qTqtjsegoamoy68Qul2Q.png)
 
+Menurut teman teman, gambar diatas adalah hewan apa ? 
 
 Saya yakin **70%** dari kalian bakal ngejawab kalau dua gambar itu  adalah **BUAYA**  (bukan buaya darat ). 
 
