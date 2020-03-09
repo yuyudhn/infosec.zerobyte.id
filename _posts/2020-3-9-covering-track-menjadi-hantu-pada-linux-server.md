@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Covering Tracks! Menjadi Hantu pada Linux Server
+title: Covering Track! Menjadi Hantu pada Linux Server
 categories: [Covering Track]
 author: Novran Faathir
 ---
@@ -11,9 +11,9 @@ Sesuatu hal yang "SULIT TERDETEKSI" itu memanglah menarik, sama seperti melakuka
 
 Pada dasarnya seorang Administrator itu akan selalu berurusan dengan yang namanya Log File dan tentunya sebagai Attacker pun harus menghindar dari Log File tersebut.
 
-## REMEMBER: For Education Purpose Only!
+### REMEMBER: For Education Purpose Only!
 
-Artikel ini hanya untuk pembelajaran saja dan kedepannya pun mungkin kami akan menulis tentang solusi untuk `Anti Covering Track`-nya juga.
+Artikel ini hanya untuk pembelajaran saja dan untuk kedepannya mungkin kami akan menulis tentang solusi untuk `Anti Covering Track`-nya juga.
 
 Peran kita disini yaitu sebagai "Attacker" yang sudah melakukan Take-over sebuah Server yang menggunakan sistem operasi Linux, kemudian kita masuk kedalam Shell dari Server tersebut.
 
