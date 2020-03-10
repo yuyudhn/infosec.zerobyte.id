@@ -142,8 +142,14 @@ root@linux:~# w
 **user1** hilang, karena sudah di-wipe menggunakan Uzapper.
 
 # Done!
-Artikel tentang Covering Track ini hanya untuk pelajaran saja, pasti banyak yang bertanya-tanya `Kenapa gak pake VPN aja? Biar gak ribet!`.
+Artikel tentang Covering Track ini hanya untuk pelajaran saja, pasti banyak yang bertanya-tanya:
+
+```
+Kenapa gak pake VPN aja? Biar gak ribet!
+```
 
 Silakan dijawab sendiri :)
 
 Terima kasih.
+
+Semoga artikel yang membahas tentang `Covering Track` akan terus berlanjut.
