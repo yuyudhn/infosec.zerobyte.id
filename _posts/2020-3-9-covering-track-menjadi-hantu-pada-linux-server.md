@@ -97,7 +97,7 @@ sed 's/YOUR IP/FAKE IP/g' $LOGFILE
 done
 ```
 
-# Stealth from WTMP, UTMP, and Lastlog
+# Stealth (from WTMP, UTMP, and Lastlog)
 
 - WTMP = mencatat setiap ada yang login/logoff
 - UTMP = mencatat siapa yang sedang melakukan akses saat ini
