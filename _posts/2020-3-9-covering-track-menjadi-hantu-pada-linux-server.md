@@ -5,7 +5,7 @@ categories: [Covering Track]
 author: Novran Faathir
 ---
 
-Sesuatu hal yang "SULIT TERDETEKSI" itu memanglah menarik, sama seperti melakukan Covering Tracks.
+Sesuatu hal yang "SULIT TERDETEKSI" itu memanglah menarik, sama seperti melakukan Covering Track. Sebelumnya artikel ini sudah kita bahas pada Blog ZeroByte.ID yang lama, namun saya coba tulis ulang disini.
 
 **Covering Track adalah** upaya untuk menghilangkan jejak setelah melakukan penyerangan terhadap aplikasi maupun Server.
 
