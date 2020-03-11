@@ -100,6 +100,7 @@ $ echo $SSH_CONNECTION | awk '{ print $1}'   # CARA KEDUA DENGAN AWK
 ```
 
 - **Mengambil Default Port SSH Server**
+
 ```
 $ echo $SSH_CONNECTION | cut -d ' ' -f 4
 22
@@ -108,6 +109,7 @@ $ echo $SSH_CONNECTION | awk '{ print $4}'
 ```
 
 - **Mengambil IP Address Server**
+
 ```
 $ echo $SSH_CONNECTION | cut -d ' ' -f 3
 172.16.1.2
