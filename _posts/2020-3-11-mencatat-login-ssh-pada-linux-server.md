@@ -176,7 +176,7 @@ Maka ketika `user1` melakukan login ke server melalui SSH maka Script akan tetap
 root@zerobyteid:~# cat /tmp/user-login-ssh.txt
 User usertesting telah masuk kedalam server (172.16.1.2) menggunakan IP ADDRESS 172.16.1.121 PORT 22 Pada 09 Mar 2020 16:40
 ------------------------------
-User usertesting telah masuk kedalam server (172.16.1.2) menggunakan IP ADDRESS 172.16.1.120 PORT 22 Pada 10 Mar 2020 10:04
+User usersatu telah masuk kedalam server (172.16.1.2) menggunakan IP ADDRESS 172.16.1.120 PORT 22 Pada 10 Mar 2020 10:04
 ------------------------------
 ```
 
