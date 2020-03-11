@@ -2,7 +2,7 @@
 layout: post
 title: Mencatat login SSH pada Linux Server
 categories: [Auditing]
-author: Suhada
+author: Rafsanzani Suhada
 ---
 
 Bisakah kita dapat mengetahui siapa saja yang masuk kedalam Server menggunakan SSH Service? tentu saja bisa, kita hanya perlu mencari tahu lokasi file log pada server tersebut. Umumnya lokasi file log pada **Ubuntu** berada di `/var/log/auth.log` dan **Centos** berada di `/var/log/secure`
