@@ -43,11 +43,6 @@ USER 1 : 172.16.1.120/25
 
 USER : usertesting
 PASS : passwordnyatesting
-
- # USER 1 # 
-
-USER : usersatu
-PASS : passwordnyausersatu
 ```
 
 **Note:** Pastikan SSH (Server) sudah terinstall pada Server
@@ -173,7 +168,7 @@ User usertesting telah masuk kedalam server (172.16.1.2) menggunakan IP ADDRESS 
 ------------------------------
 ```
 
-Jika `user1` melakukan login ke server melalui SSH maka Script akan tetap mencatat nya
+Maka ketika `user1` melakukan login ke server melalui SSH maka Script akan tetap mencatat nya
 
 ```
 root@zerobyteid:~# cat /tmp/user-login-ssh.txt
@@ -182,3 +177,4 @@ User usertesting telah masuk kedalam server (172.16.1.2) menggunakan IP ADDRESS 
 User usertesting telah masuk kedalam server (172.16.1.2) menggunakan IP ADDRESS 172.16.1.120 PORT 22 Pada 10 Mar 2020 10:04
 ------------------------------
 ```
+
