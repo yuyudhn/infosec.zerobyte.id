@@ -7,8 +7,8 @@ author: Rafshanzani Suhada
 
 Mungkin kalian sudah tidak asing lagi dengan metode `Takeover Account (OAuth)` yang memanfaatkan param `redirect_uri`. Diartikel ini akan menjelaskan Bypass Open Redirect yang mengakibatkan akun diambil alih. Untuk penjelasan apa itu Open Redirect dan Akun takeover kalian dapat membacanya diartikel berikut: 
 
-* https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html
-* https://www.imperva.com/learn/application-security/account-takeover-ato/
+* <https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html>
+* <https://www.imperva.com/learn/application-security/account-takeover-ato/>
 
 Pada umumnya bug ini hanya menambahkan / merubah param menjadi `redirect_uri=https://attacker.com`, namun pada kasus ini saya mendapatkan error pada saat menambahkan param tersebut. Lalu saya muncul ide untuk merubahnya menjadi `redirect_uri=https://target.com.attacker.com/`, cukup kaget dan ini ternyata berhasil.
 
@@ -30,7 +30,7 @@ https://auth.target.id/login?oidc_sp=google&redirect_uri=https://target.id.attac
 
 ---
 
-## Skenario
+# Skenario
 
 ### Server (target.id.attacker.com)
 
