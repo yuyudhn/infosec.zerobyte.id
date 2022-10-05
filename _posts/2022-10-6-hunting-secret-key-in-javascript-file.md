@@ -27,5 +27,7 @@ nuclei -t exposures/tokens/ -l jslinks.txt
 
 ![Nuclei Scan](https://infosec.zerobyte.id/images/nuclei-token-exposure-scan.png)
 
-Sebagai contoh di sini saya menemukan Secret Key yang dapat mengakses salah satu Provider Mailer.
+Sebagai contoh di sini saya menemukan Secret Key yang dapat mengakses salah satu _Provider_ untuk _Service Mailer_.
 ![Sendgrid Secret Key](https://infosec.zerobyte.id/images/sendgrid-secret-key-leaked.png)
+
+Secret Key yang ditemukan bisa dapat dieksploitasi lebih lanjut.
