@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bypass Open Redirect to OAuth Takeover Account
+title: Bypass Open Redirect to Takeover Account via OAuth
 categories: [Web Security, Bug bounty write-up]
 author: Rafshanzani Suhada
 ---
