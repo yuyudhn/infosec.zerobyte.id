@@ -12,7 +12,7 @@ Berikut Tool yang akan digunakan:
 - https://github.com/lc/gau
 - https://github.com/projectdiscovery/nuclei
 
-## Hunting JavaScript File
+# Hunting JavaScript File
 Dengan bantuan _Tool_ **gau** (getallurls) kita dapat mengekstraksi URL melalui AlienVault's Open Threat Exchange, the Wayback Machine, dan Common Crawl kemudian melakukan _Filter_ endpoint untuk JS file saja.
 
 ```
