@@ -42,10 +42,20 @@ Sink:
 - element.innerHTML
 - element.outerHTML
 
-# Sink to Source Analysis
+Sebenarnya masih banyak lagi list `Source` dan `Sink` yang perlu diperhatikan, kalian dapat **Googling** untuk menemukan list yang lebih lengkap.
+
+# Example: Sink to Source Analysis
+
+Ini adalah salah satu contoh untuk melakukan analisa terhadap DOM Manipulation.
+
 ![source-to-sink-dom-xss](https://infosec.zerobyte.id/images/source-to-sink-dom-xss.png)
 
-Pada _Source JavaScript_ di atas terdapat sebuah **Sink** yaitu `document.write()` yang memanggil _Variable_ dari _productid_. _Variable productid_ sendiri menggunakan salah satu sintaks **Source** yaitu `location.href` yang di-_parsing_ menggunakan _Function_ `searchParams` untuk mengambil URL Parameter `get('pid')`.
+Pada _JavaScript_ di atas terdapat sebuah **Sink** yaitu `document.write()` yang memanggil _Variable_ dari _productid_. _Variable productid_ sendiri menggunakan salah satu sintaks **Source** yaitu `location.href` yang di-parsing menggunakan _Function_ `searchParams` untuk mengambil URL Parameter `get('pid')`.
+
+| to "Sink"        | from "Source" |
+| ---------------- |:-------------:|
+| document.write() | location.href |
+
 
 ### Exploitation
 ```
@@ -54,6 +64,6 @@ https://[redacted].com/[redacted]/cart?pid="%20onerror="alert(1)"%20x="
 ![DOM Triggered](https://infosec.zerobyte.id/images/dom-xss-location-href.png)
 
 # EOF
-Untuk menemukan kerentanan DOM XSS sendiri kalian hanya perlu memperhatikan `Source` dan `Sink` yang terdapat pada JavaScript di Website yang sedang kalian lakukan Assessment.
+Untuk menemukan kerentanan DOM XSS sendiri sebenarnya kalian hanya perlu memperhatikan `Source` dan `Sink` yang terdapat pada JavaScript di Website yang sedang kalian lakukan Assessment.
 
 Terima kasih.
