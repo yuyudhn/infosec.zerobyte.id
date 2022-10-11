@@ -19,10 +19,9 @@ DOM-Based Cross-Site Scripting adalah salah satu celah XSS, celah ini juga bisa 
 
 # DOM: Source and Sink
 
-```
-Note:
+
+**Note:**
 Source dan Sink adalah kunci yang perlu diperhatikan untuk melakukan analisa terhadap celah DOM XSS.
-```
 
 ### Source
 Di dalam JavaScript, Source adalah sebuah sintaks yang berguna untuk mengambil sebuah Value (isi), Value tersebut dapat diubah-ubah oleh User itu sendiri (bersifat Dynamic), bisa dibilang hal tersebut mirip-mirip seperti Parameter Input yang disimpan kedalam Variable.
