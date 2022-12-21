@@ -9,8 +9,7 @@ Kegiatan ini berawal dari salah satu teman yang memberi informasi bahwa dia baru
 
 Untuk mempermudah dan agar saya tidak perlu menyebut nama situsnya, mari kita sebut situs ini sebagai `situsharam.com`.
 
-<img src="https://infosec.zerobyte.id/
-          screenshot-situs-haram.png" alt="Mengintip Dashboard Admin Situs Haram">
+<img src="https://infosec.zerobyte.id/images/screenshot-situs-haram.png" alt="Mengintip Dashboard Admin Situs Haram">
 
 Setelah mencoba beberapa fitur seperti list _actors/actress_, kategori, pencarian, serta fitur yang membutuhkan autentikasi pengguna seperti _edit profile_, _like_, _comment_ dan semacamnya, saya menemukan beberapa celah yang detailnya akan saya jelaskan di bawah ini.
 
