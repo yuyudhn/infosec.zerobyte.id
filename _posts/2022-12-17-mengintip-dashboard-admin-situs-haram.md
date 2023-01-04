@@ -13,7 +13,7 @@ Untuk mempermudah dan agar saya tidak perlu menyebut nama situsnya, mari kita se
 
 Setelah mencoba beberapa fitur seperti list _actors/actress_, kategori, pencarian, serta fitur yang membutuhkan autentikasi pengguna seperti _edit profile_, _like_, _comment_ dan semacamnya, saya menemukan beberapa celah yang detailnya akan saya jelaskan di bawah ini.
 
-## Reflected XSS pada Halaman Pencarian
+### Reflected XSS pada Halaman Pencarian
 Celah pertama adalah _Reflected XSS_ yang saya temukan di halaman pencarian. Payload yang saya gunakan adalah: 
 
 ```html
@@ -28,7 +28,7 @@ Untuk melakukan ini, penyerang perlu mengirim URL (yang sudah disisipi _payload_
 
 <img src="https://infosec.zerobyte.id/images/screenshot-reflected-xss-pencarian.jpg" alt="Mengintip Dashboard Admin Situs Haram">
 
-## Stored XSS pada Profile
+### Stored XSS pada Profile
 Saya rasa kebanyakan _bug bounty hunter_ (termasuk saya) akan mencoba memasukkan _payload_ ke setiap form yang kami temui. Dengan modal "penting yakin", saya mengisi `"><h1>asdf</h1>"` pada kolom nama di halaman _Edit Profile_.
 
 Setelah menyimpan perubahan tersebut, kode HTML yang saya sisipkan dibaca oleh situs sehingga menandakan adanya potensi untuk _Stored XSS_. 
