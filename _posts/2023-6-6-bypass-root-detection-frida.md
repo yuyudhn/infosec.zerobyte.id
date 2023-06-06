@@ -5,15 +5,13 @@ categories: [Pentesting, Mobile Application Pentesting]
 author: yuyudhn
 ---
 
-## Bypass Root Detection
-
 Dalam dunia pengembangan aplikasi mobile, keamanan merupakan hal yang sangat penting. Salah satu aspek keamanan yang sering diterapkan adalah deteksi root pada perangkat Android. Root detection digunakan untuk mengidentifikasi apakah perangkat yang menjalankan aplikasi tersebut telah di-root atau tidak. 
 
-Namun, bagi seorang peneliti keamanan atau pengembang aplikasi yang ingin melakukan pengujian lebih lanjut, root detection dapat menjadi hambatan. Ada beberapa modul untuk melakukan bypass root detection pada aplikasi Android, seperti Magisk, Shamiko, Xposed, dll. 
+Namun, bagi seorang peneliti keamanan atau pengembang aplikasi yang ingin melakukan pengujian lebih lanjut, root detection dapat menjadi hambatan sehingga diperlukan root detection bypass. Ada beberapa modul untuk melakukan bypass root detection pada aplikasi Android, seperti Magisk, Shamiko, Xposed, dll. 
 
 Tapi bagaimana jika didalam aplikasi Android yang kita pakai sudah terdapat function untuk memeriksa dan mengenali modul diatas? Di sinilah peran Frida sebagai alat dynamic instrumentation sangat penting. Dalam artikel ini, kami akan menjelaskan bagaimana menggunakan Frida untuk melakukan bypass root detection pada perangkat Android, membuka peluang untuk menguji aplikasi dengan lebih bebas dan mendalam.
 
-## Bypass Root Detection with Frida
+### Bypass Root Detection with Frida
 
 Disini saya tidak akan menjelaskan bagaimana cara menginstall ataupun mengkonfigurasi frida maupun frida-server, kalian bisa googling sendiri untuk cara instalasinya. Namun lebih ke bagaimana kita melakukan inspeksi function Root Detection yang ada pada aplikasi, lalu melakukan hooking menggunakan frida untuk membypass function tersebut.
 
@@ -99,7 +97,7 @@ Jadi teori sederhananya dalam melakukan bypass root detection adalah:
 
 Inspeksi file .apk menggunakan Jadx > Cari fungsi root detection > Copy ke frida snippet > ubah nilai return menjadi false.
 
-### Bypass iRoot Plugin
+### Study Case: Bypass iRoot Plugin
 
 Oke, sekarang ke real case dimana aktifitas bypass root detection ini harus dilakukan ketika saya melakukan pentesting mobile apps salah satu client. Namun karena alasan privasi, saya tidak akan me-reveal nama aplikasi maupun tampilan aplikasinya.
 
@@ -153,3 +151,5 @@ Root bypassed.
 ![Bypassed](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjfMRV1Ui-g5nYvmW8Ik3zN-ft3xPc5tqHoPNgnc3xqshZVjUjuLN6xf6rDiis0h6S-EWml2W-XGog3vvOQv3x2Zxdb23cSKEME99a7keaGPLRnVWAuzPa-_2UjbVl4uM4ccON-5vdWX5DMOXMFuVLdCOfHrc24tB6PxTxvu-mZCqC3uS2MvRTwrhEdg/s953)
 
 Oke mungkin itu saja mengenai bypass root detection menggunakan Frida. Di artikel selanjutnya (jika saya sempat) kita akan membahas mengenai bypass SSL Pinning pada aplikasi.
+
+Thanks buat Mas [Firdy](https://github.com/firdyfirdy)  dan Mas [Suhada](https://github.com/0xshdax) serta kawan-kawan ZeroByte lainnya atas diskusi dan juga pencerahannya.
