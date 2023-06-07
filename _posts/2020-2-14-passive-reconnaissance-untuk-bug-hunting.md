@@ -5,14 +5,16 @@ categories: [Web Security]
 author: Novran Faathir
 ---
 
-Passive Reconnaissance adalah sebuah metode pengintaian untuk mengumpulkan informasi (Information Gathering) tanpa melakukan enumerasi secara langsung kepada target, namun kita akan memanfaatkan sebuah third-party (contohnya: seperti search engine atau mesin yang menyimpan sebuah histori target), dengan kata lain kita akan memanfaatkan OSINT (Open Source Intelligent) untuk melakukan Passive Reconnaissance.
+## Passive Reconnaissance?
 
-`Kalau bahasa simplenya seperti dukun, mencari informasi tanpa menyentuh (secara langsung) :D`
+Reconnaissance adalah sebuah metode pengintaian untuk mengumpulkan informasi (Information Gathering) sedangkan Passive Reconnaissance di sini memiliki arti mengintai tanpa melakukan enumerasi secara langsung kepada target, namun kita akan memanfaatkan sebuah third-party atau data miliki aplikasi lain (contohnya: seperti Search Engine atau mesin yang menyimpan sebuah histori target), dengan kata lain kita akan memanfaatkan OSINT (Open Source Intelligent) untuk melakukan Passive Reconnaissance.
 
-Ok! kita mulai saja, hal apa saja yang dapat kita lakukan.
+`Kalau bahasa simple-nya itu seperti dukun, mencari informasi tanpa menyentuh target secara langsung.`
 
+Hal apa saja yang dapat kita lakukan?
 
 # Mencari IP address dibalik Cloudflare menggunakan Historical DNS
+
 Pada saat mencari IP address dibalik Cloudflare, biasanya saya menggunakan mesin dari:
 - <https://www.virustotal.com/gui/domain/target.com/relations>
 - <https://securitytrails.com/domain/target.com/history/a>
@@ -109,6 +111,6 @@ Supaya lebih cepat saat pencarian Subdomain, kalian dapat menggunakan tools di b
 ## Summary
 Passive Reconnaissance tentunya lebih unggul untuk hal "kecepatan" namun kurang dalam hal "ketepatan" dibandingkan dengan Active Reconnaissance karena sewaktu-waktu aplikasi dapat berubah. Pada artikel ini saya hanya menggunakan beberapa mesin saja untuk dijadikan contoh, kalian dapat mengeksplor lebih lanjut dan temukan mesin-mesin kalian.
 
-Terima kasih untuk Edo Maland, Bayu Fedra, Suhada, dan Rio untuk sharing-sharingnya sampai pagi terkait hal ini :D
+Terima kasih untuk Edo Maland, Bayu Fedra, Suhada, dan Rio untuk sharing-sharingnya sampai pagi terkait hal ini.
 
 Semoga artikel ini bermanfaat dan bilamana ada kesalahan jangan ragu untuk koreksi.
