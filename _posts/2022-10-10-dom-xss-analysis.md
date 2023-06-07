@@ -33,7 +33,7 @@ Source:
 - document.referrer
 
 ### Sink
-Sink adalah sebuah Function yang biasanya digunakan untuk memproses _Value_ dari `Source`.
+Sink adalah sebuah Function yang biasanya digunakan untuk memproses Value dari `Source`.
 
 Sink:
 - document.write()
@@ -49,7 +49,7 @@ Ini adalah salah satu contoh untuk melakukan analisa terhadap DOM Manipulation.
 
 ![source-to-sink-dom-xss](https://infosec.zerobyte.id/images/source-to-sink-dom-xss.png)
 
-Pada _JavaScript_ di atas terdapat sebuah **Sink** yaitu `document.write()` yang memanggil _Variable_ dari _productid_. _Variable productid_ sendiri menggunakan salah satu sintaks **Source** yaitu `location.href` yang di-parsing menggunakan _Function_ `searchParams` untuk mengambil URL Parameter `get('pid')`.
+Pada JavaScript di atas terdapat sebuah **Sink** yaitu `document.write()` yang memanggil Variable dari productid. Variable productid sendiri menggunakan salah satu sintaks **Source** yaitu `location.href` yang di-parsing menggunakan Function `searchParams` untuk mengambil URL Parameter `get('pid')`.
 
 | to "Sink"        | from "Source" |
 | ---------------- |:-------------:|
